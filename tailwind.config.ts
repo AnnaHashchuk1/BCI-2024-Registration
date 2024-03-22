@@ -32,6 +32,12 @@ const config = {
         '140': '1.4',
         '200': '2',
       },
+      borderWidth: {
+        '6': '6px',
+      },
+      lineHeight: {
+        '4-rem': '4rem',
+      }
     },
   },
 } satisfies Config;

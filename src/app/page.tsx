@@ -6,6 +6,7 @@ import Partners from "@/components/Partners";
 import AboutBEST from "@/components/AboutBest";
 import Banner from "@/components/Banner";
 import Statistics from "@/components/Statistics";
+import RoadmapStudent from "@/components/RoadmapStudent";
 
 export default function Home() {
   return (
@@ -15,6 +16,9 @@ export default function Home() {
       
       <Banner />
       <About />
+
+      <RoadmapStudent />
+      <Banner />
 
       <Statistics />
       <Banner />
