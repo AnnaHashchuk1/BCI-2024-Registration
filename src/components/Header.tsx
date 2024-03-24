@@ -19,16 +19,16 @@ const navigation: MenuItem[] = [
     href: "#about",
   },
   {
+    name: "Як приєднатися",
+    href: "#howToJoin",
+  },
+  {
     name: "Статистика",
     href: "#statistic",
   },
   {
-    name: "Співпраця",
-    href: "#cooperation",
-  },
-  {
-    name: "Контакти",
-    href: "#contacts",
+    name: "Зареєструватися",
+    href: "#registration",
   },
 ];
 
@@ -59,7 +59,7 @@ export default function Header() {
           className="xl:w-48 w-24"
         />
       </div>
-      <div className=" hidden xl:flex xl:justify-between w-full mr-[150px] text-white leading-none">
+      <div className=" hidden xl:flex xl:justify-between w-full mr-14 text-white leading-none">
         {navigation.map((nav_item) => (
           <span
             onClick={() => {

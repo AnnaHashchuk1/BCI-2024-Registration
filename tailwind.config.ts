@@ -25,8 +25,7 @@ const config = {
         "bci-light-gray": "#9F9F9F",
       },
       boxShadow: {
-        'normal-light': '0 0 20px 0 rgba(240, 239, 240, 0.5)',
-        'normal-dark': '0 5px 5px 0 rgba(30, 30, 30, 0.3)',
+        'normal': '0 0 20px 5px rgba(240, 239, 240, 0.5)',
       },
       scale: {
         '140': '1.4',

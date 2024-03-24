@@ -7,6 +7,7 @@ import AboutBEST from "@/components/AboutBest";
 import Banner from "@/components/Banner";
 import Statistics from "@/components/Statistics";
 import RoadmapStudent from "@/components/RoadmapStudent";
+import Final from "@/components/Final";
 
 export default function Home() {
   return (
@@ -26,6 +27,7 @@ export default function Home() {
       <AboutBEST />
       <Partners />
       
+      <Final />
       <Footer />
     </main>
   );
