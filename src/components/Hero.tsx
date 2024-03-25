@@ -1,20 +1,26 @@
+"use client";
+import * as Dialog from "@radix-ui/react-dialog";
+import { HamburgerMenuIcon } from "@radix-ui/react-icons";
+import { motion } from "framer-motion";
 import Image from "next/image";
 import Marquee from "react-fast-marquee";
+import { useState } from "react";
+
+import useSmoothScrollTo from "@/hooks/useSmoothScrollTo";
 
 export default function Hero() {
+  const handleScrollClick = useSmoothScrollTo();
   return (
     <section
-      className="min-h-screen relative w-full flex flex-col justify-center items-center mt-10"
+      className="relative w-full flex flex-col justify-center items-center mt-10"
       id="top"
     >
-
-
       <div className="font-montserrat text-bci-white text-left lg:text-center mx-20 mt-32 z-20">
         <h3 className="text-7xl md:text-8xl font-bold mb-5">
           BEST Company Insight
         </h3>
         <p className="flex flex-col text-2xl md:text-4xl font-bold mb-2">
-          <span>Привіт, студенте!</span>
+          <span>Привіт, студенте</span>
           Час відвідати компанію твоєї мрії настав!
         </p>
       </div>
@@ -39,12 +45,14 @@ export default function Hero() {
             ))}
         </div>
       </Marquee>
-      <a className="mt-3 mb-14 scale-75" href="https://docs.google.com/forms/d/e/1FAIpQLSeV-6rCYsm2e-Bf7Dcb83vBuk85ggH-QP1zaCZYBRBUUWlxAQ/viewform">
-        <button className="font-medium text-bci-gray hover:text-bci-white text-2xl md:text-3xl text-center bg-bci-white py-6 px-14 rounded-2xl hover:scale-110 duration-500 hover:shadow-normal
+      <button onClick={() => {
+          handleScrollClick("#registration");
+        }}
+            className="font-medium text-bci-gray hover:text-bci-white text-2xl md:text-3xl text-center bg-bci-white
+            py-6 px-14 my-7 rounded-2xl scale-75 hover:scale-90 duration-500 hover:shadow-normal
             border border-bci-white hover:border-bci-white hover:bg-bci-purple z-20">
             <p>Зареєструватися</p>
         </button>
-      </a>
       <Image
         src="/BgElement.svg"
         width={800}

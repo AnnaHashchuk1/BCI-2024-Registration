@@ -26,10 +26,6 @@ const navigation: MenuItem[] = [
     name: "Статистика",
     href: "#statistic",
   },
-  {
-    name: "Зареєструватися",
-    href: "#registration",
-  },
 ];
 
 export default function Header() {
@@ -56,10 +52,10 @@ export default function Header() {
           height={150}
           width={100}
           draggable="false"
-          className="xl:w-48 w-24"
+          className="xl:w-48 w-24 mr-40"
         />
       </div>
-      <div className=" hidden xl:flex xl:justify-between w-full mr-14 text-white leading-none">
+      <div className=" hidden xl:flex xl:justify-between w-full mr-32 text-white leading-none">
         {navigation.map((nav_item) => (
           <span
             onClick={() => {
