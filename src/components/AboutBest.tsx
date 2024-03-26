@@ -7,10 +7,7 @@ export default function AboutBEST(){
                 <h1 className="text-4xl lg:text-7xl font-montserrat font-bold text-white self-center text-center mt-10">Що таке BEST Lviv?</h1>
                 <div className="w-full border border-white rounded-xl bg-bci-purple p-10 z-20">
                     <p className="font-montserrat text-md lg:text-lg text-white">
-                        <strong>
-                            BEST (Board of European Students of Technology)  
-                        </strong>
-                     – неприбуткова громадська організація, яка об’єднує студентів технічних спеціальностей 
+                        <strong>BEST (Board of European Students of Technology)</strong> – неприбуткова громадська організація, яка об’єднує студентів технічних спеціальностей 
                     для забезпечення обміну знаннями та співпраці компаній, університетів та студентів Європи.
                     </p>
                 </div>
@@ -28,7 +25,7 @@ export default function AboutBEST(){
                     </a>
                     </div>
                     <div className="grid grid-col font-montserrat text-3xl gap-4 lg:gap-8 text-white">
-                        <p><strong>35</strong> роки досвіду</p>
+                        <p><strong>35</strong> років досвіду</p>
                         <p><strong>85</strong> осередків</p>
                         <p><strong>30</strong> країн</p>
                     </div>
