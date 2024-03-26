@@ -8,9 +8,10 @@ export default function AboutBEST(){
                 <div className="w-full border border-white rounded-xl bg-bci-purple p-10 z-20">
                     <p className="font-montserrat text-md lg:text-lg text-white">
                         <strong>
-                            BEST (Board of European Students of Technology)  
-                        </strong> – неприбуткова громадська організація, яка об’єднує студентів технічних спеціальностей 
-                    для забезпечення обміну знаннями та співпраці компаній, університетів та студентів Європи.
+                            BEST Lviv (Board of European Students of Technology)  
+                        </strong> – осередок міжнародної неприбуткової громадської організації, який об’єднує 
+                        студентів технічних спеціальностей. Нашою місією є розвиток студентів через обмін знаннями 
+                        та співпраці компаній, університетів та студентів Європи.
                     </p>
                 </div>
                 <div className="flex flex-row gap-7 justify-center md:justify-between px-4 md:px-16 ">
