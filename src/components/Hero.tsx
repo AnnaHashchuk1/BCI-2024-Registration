@@ -19,7 +19,7 @@ export default function Hero() {
         <h3 className="text-7xl md:text-8xl font-bold mb-5">
           BEST Company Insight
         </h3>
-        <h3 className="text-6xl font-bold mb-4">
+        <h3 className="text-5xl md:text-6xl font-bold mb-4">
           22-26 квітня
         </h3>
         <p className="flex flex-col text-2xl md:text-3xl font-semibold mb-2">
