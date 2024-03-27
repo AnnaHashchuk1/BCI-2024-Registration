@@ -23,7 +23,7 @@ export default function AboutMobile() {
         </div>
         <div className="text-left font-montserrat text-base text-white font-normal">
           BEST Company Insight – це захід для студентів, де вони зможуть більше
-          дізнатися про Вашу компанію, внутрішні процеси та отримають можливість
+          дізнатися про компанію, її внутрішні процеси та отримають можливість
           поспілкуватися з працівниками
         </div>
       </div>

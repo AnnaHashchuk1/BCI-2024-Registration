@@ -40,7 +40,7 @@ export default function AboutMonitor() {
         </div>
         <div className="text-[20px] text-white font-montserrat">
           BEST Company Insight – це захід для студентів, де вони зможуть більше
-          дізнатися про Вашу компанію, внутрішні процеси та отримають можливість
+          дізнатися про компанію, її внутрішні процеси та отримають можливість
           поспілкуватися з працівниками
         </div>
       </div>
