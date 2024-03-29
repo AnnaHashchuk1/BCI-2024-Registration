@@ -39,9 +39,8 @@ export default function AboutMonitor() {
           Про Наш Проєкт
         </div>
         <div className="text-[20px] text-white font-montserrat">
-          BEST Company Insight – це захід для студентів, де вони зможуть більше
-          дізнатися про компанію, її внутрішні процеси та отримають можливість
-          поспілкуватися з працівниками
+          BEST Company Insight – це подія для студентів, зацікавлених у топових 
+          компаніях різних напрямків, пошуку роботи та покращенню навичок
         </div>
       </div>
     </div>
