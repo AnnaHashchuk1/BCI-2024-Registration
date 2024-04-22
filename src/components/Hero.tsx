@@ -1,10 +1,6 @@
 "use client";
-import * as Dialog from "@radix-ui/react-dialog";
-import { HamburgerMenuIcon } from "@radix-ui/react-icons";
-import { motion } from "framer-motion";
 import Image from "next/image";
 import Marquee from "react-fast-marquee";
-import { useState } from "react";
 
 import useSmoothScrollTo from "@/hooks/useSmoothScrollTo";
 
@@ -28,11 +24,11 @@ export default function Hero() {
         </p>
       </div>
       <Marquee
-        className="speed-90 py-3 flex gap-6 z-10"
+        className="speed-90 py-3 flex z-10 mb-8"
         speed={7}
         autoFill={true}
       >
-        <div className="flex flex-row justify-center items-center gap-6 z-20">
+        <div className="flex flex-row justify-center items-center mr-6 gap-6 z-20">
           {Array(4)
             .fill(0)
             .map((_, index) => (

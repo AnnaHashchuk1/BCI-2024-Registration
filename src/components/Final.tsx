@@ -1,5 +1,3 @@
-import Image from "next/image"
-
 export default function Final() {
   return (
     <section id="registration" className="relative font-montserrat text-bci-white w-4/6 flex flex-col items-center gap-12 mb-40 mt-14 lg:mt-7">
